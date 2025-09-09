@@ -1,0 +1,29 @@
+EXPLICAÇÃO DE CODIGO ABAIXO 
+ <-----------------______MANIFEST _____-----____----____----____--
+ O manifest.json é um arquivo essencial em um Progressive Web App (PWA).
+  Ele funciona como a “identidade” do seu app, 
+  dizendo ao navegador e ao sistema operacional como o aplicativo deve ser instalado e exibido.
+{
+  "name": "Minha Lista de Tarefas",  
+  // Nome completo do app. É exibido quando o usuário instala no celular.
+
+  "short_name": "Tarefas",  
+  // Nome curto (abreviado). Aparece no ícone da tela inicial.
+
+  "description": "Um aplicativo de lista de tarefas simples e funcional.",  
+  // Breve descrição do app. Usado em algumas lojas e instaladores.
+
+  "start_url": "./",  
+  // URL inicial do app quando aberto. "./" significa abrir a raiz do projeto.
+
+  "display": "standalone",  
+  // Define como o app será exibido:
+  // "standalone" faz parecer um app nativo (sem barra de navegação do navegador).
+
+  "background_color": "#ffffff",  
+  // Cor de fundo da tela de splash (tela de carregamento ao abrir o app).
+
+  "theme_color": "#5c677d",  
+  // Cor principal usada na barra de status/navegação do navegador (Android).
+}
+----____----____----____----___-->
